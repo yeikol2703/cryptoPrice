@@ -1,5 +1,5 @@
 setInterval(showTime, 1000);
-//setInterval(getCoinData, 2000);
+setInterval(getCoinData, 3000);
 function showTime() {
   let time = new Date();
   let hour = time.getHours();
