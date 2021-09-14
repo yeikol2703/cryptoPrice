@@ -1,5 +1,5 @@
 setInterval(showTime, 1000);
-setInterval(getCoinData, 2000);
+//setInterval(getCoinData, 2000);
 function showTime() {
   let time = new Date();
   let hour = time.getHours();
@@ -25,9 +25,10 @@ fetch('https://api.coincap.io/v2/assets').then(
 
   var padre = document.getElementById("coins-container");
 
+
   for (var i = 0; i < data.length; i++){
 
-    var symbol = document.createTextNode( data[i].symbol );
+var symbol = document.createTextNode( data[i].symbol );
 var name = document.createTextNode( data[i].id );
 var priceUsd =  document.createTextNode( "$ " + data[i].priceUsd );
 
