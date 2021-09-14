@@ -1,0 +1,19 @@
+body {
+background: rgb(2,0,36);
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+}
+header h1{
+    margin: 50px;
+    font-size: 50px;
+}
+.d-flex{
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.card{
+    margin: 10px;
+}
